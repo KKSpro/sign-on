@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js"></script>
+    <title>Profile</title>
+
+</head>
+<body>
+    <div class="main">
+        <h3 id="h3"> Welcome <%= object.name %>!!</h3>
+        <h3 id="h3" > From <%= object.city %></h3>
+        <h3 id="h3"> Contact <%= object.mobile %> </h3>
+       <a href="/logout"><button class="sign">Logout</button></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
